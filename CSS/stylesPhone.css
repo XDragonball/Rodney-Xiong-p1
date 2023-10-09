@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ffffff;
+    font-family: Arial;
+    line-height: 1.5;
+    color: #333;
+}
+
+header {
+    background-color: #ff9100;
+    color: #fff;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#greeting{
+    font-size: 18px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;  
+}
+
+header h2 {
+    font-size: 20px;
+}
+
+.review {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+}
+
+
+.review img {
+    display: block;;
+    margin: 0 auto;
+}
+
+
+.review .rating span {
+    font-weight: bold;
+    color: #ff9900;
+}
+
+.review p.description {
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+}
+
+
+.review ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.review ul ul {
+    list-style-type: circle;
+}
+
+
+.review p.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.rating{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.finish{
+    font-weight: bold;
+}
+
+.display{
+    font-weight: bold;
+}
+
+.capacity{
+    font-weight: bold;
+}
+
+.sizeweight{
+    font-weight: bold;
+}
